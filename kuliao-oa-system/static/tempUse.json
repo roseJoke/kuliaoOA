@@ -1,0 +1,42 @@
+{
+    "code": "000000",
+    "msg": "执行成功",
+    "data": [
+        {
+            "processId": "P20180808_000001",
+            "instanceId": "158",
+            "stepId": "S_1",
+            "taskId": "176",
+            "activateData": {
+                "processId": "P20180808_000001",
+                "processName": "员工请假",
+                "activityUserId": "000007",
+                "busi": {
+                    "publish_time": "20180829",
+                    "askForLeave": {
+                        "staffId": "000001",
+                        "staffName": "admin",
+                        "department": "西安酷聊智能有限公司",
+                        "type": "产假",
+                        "reason": "啊实打实大",
+                        "cc": "阿达"
+                    }
+                },
+                "handler": [
+                    {
+                        "stepId": "S_1",
+                        "userId": "000002"
+                    },
+                    {
+                        "stepId": "S_3",
+                        "userId": "000001"
+                    },
+                    {
+                        "stepId": "S_2",
+                        "userId": "000007"
+                    }
+                ]
+            }
+        }
+    ]
+}

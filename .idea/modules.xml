@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/oa-hr/oa-hr.iml" filepath="$PROJECT_DIR$/oa-hr/oa-hr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oa-hr1/oa-hr1.iml" filepath="$PROJECT_DIR$/oa-hr1/oa-hr1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/trunk.iml" filepath="$PROJECT_DIR$/.idea/trunk.iml" />
+    </modules>
+  </component>
+</project>

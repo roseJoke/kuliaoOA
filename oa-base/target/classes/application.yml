@@ -1,0 +1,12 @@
+server:
+  port: 8085
+spring:
+    application:
+        name: base
+    datasource:
+        url: jdbc:mysql://172.16.0.27:3306/kuliaoOA?characterEncoding=UTF-8
+        username: root
+        password: Hor6666!
+#        password: sa
+        driver-class-name: com.mysql.jdbc.Driver
+    jmx:

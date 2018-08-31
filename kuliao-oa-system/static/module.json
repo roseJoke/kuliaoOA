@@ -1,0 +1,66 @@
+[
+    {
+        "name": "demo",
+        "path": "src/components/page/demo",
+        "meta": {
+            "title": "示例"
+        }
+    },
+    {
+        "name": "common",
+        "path": "src/components/common",
+        "meta": {
+            "title": "公共模块"
+        }
+    },
+    {
+        "name": "base",
+        "path": "src/components/page/base",
+        "meta": {
+            "title": "用户管理"
+        }
+    },
+    {
+        "name": "hr",
+        "path": "src/components/page/hr",
+        "meta": {
+            "title": "人资资源管理"
+        }
+    },
+    {
+        "name": "assets",
+        "path": "src/components/page/assets",
+        "meta": {
+            "title": "资产管理"
+        }
+    },
+    {
+        "name": "message",
+        "path": "src/components/page/message",
+        "meta": {
+            "title": "消息模块"
+        }
+    },
+    {
+        "name": "workflow",
+        "path": "src/components/page/workflow",
+        "meta": {
+            "title": "流程模块"
+        }
+    },
+    {
+        "name": "evaluate",
+        "path": "src/components/page/evaluate",
+        "meta": {
+            "title": "考勤考评"
+        }
+    },
+    {
+        "name": "file",
+        "path": "src/components/page/file",
+        "meta": {
+            "title": "文件模块"
+        }
+    }
+
+]

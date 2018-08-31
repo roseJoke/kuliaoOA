@@ -1,0 +1,75 @@
+{
+    "processName": "请假流程",
+    "processType": "S",
+    "groupId": "1",
+    "relationUrl": "/test",
+    "steps":[
+        {
+            "stepId": "S",
+            "stepName":"发起人",
+            "userId": "",
+            "approvalType": "S",
+            "links":[
+                {
+                    "linkName": "下一审批人",
+                    "condition": "",
+                    "targetStepId": "1"
+                }
+            ],
+            "style": {"x": "5em", "y": "10em", "width": "10em"}
+        },
+        {
+            "stepId": "1",
+            "stepName":"一级审批人",
+            "userId": "1",
+            "approvalType": "S",
+            "links":[
+                {
+                    "linkName": "下一审批人",
+                    "condition": "",
+                    "targetStepId": "2"
+                }
+            ],
+            "style": {"x": "25em", "y": "10em"}
+        },
+        {
+            "stepId": "2",
+            "stepName":"二级审批人",
+            "userId": "{2,3,4,5}",
+            "approvalType": "O",
+            "links":[
+                {
+                    "linkName": "结束",
+                    "condition": "",
+                    "targetStepId": "E"
+                },
+                {
+                    "linkName": "请假超过三天需三级审批",
+                    "condition": "${day>3}",
+                    "targetStepId": "3"
+                }
+            ],
+            "style": {"x": "45em", "y": "5em"}
+        },
+        {
+            "stepId": "3",
+            "stepName":"三级审批人",
+            "userId": "8,9",
+            "approvalType": "A",
+            "links":[
+                {
+                    "linkName": "结束",
+                    "condition": "",
+                    "targetStepId": "E"
+                }
+            ],
+            "style": {"x": "45em", "y": "15em"}
+        },
+        {
+            "stepId": "E",
+            "stepName":"结束",
+            "links":[],
+            "style": {"x": "65em", "y": "10em"}
+        }
+    ]
+}

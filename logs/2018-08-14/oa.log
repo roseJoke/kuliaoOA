@@ -1,0 +1,1640 @@
+2018-08-14 20:07:15.753 main INFO  com.kuliao.oa.OaHrApp.logStarting:50 - Starting OaHrApp on DESKTOP-Q6UH8IF with PID 11812 (F:\KLOA\trunk\oa-hr\target\classes started by 001 in F:\KLOA\trunk)
+2018-08-14 20:07:15.774 main INFO  com.kuliao.oa.OaHrApp.logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-08-14 20:07:15.948 main INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c4f3a0: startup date [Tue Aug 14 20:07:15 CST 2018]; root of context hierarchy
+2018-08-14 20:07:20.388 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 - Tomcat initialized with port(s): 8081 (http)
+2018-08-14 20:07:20.475 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:07:20.524 main INFO  org.apache.catalina.core.StandardService.log:180 - Starting service [Tomcat]
+2018-08-14 20:07:20.525 main INFO  org.apache.catalina.core.StandardEngine.log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-14 20:07:20.555 localhost-startStop-1 INFO  org.apache.catalina.core.AprLifecycleListener.log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\bin;E:\IDEA\spring-boot-cli-1.5.9.RELEASE-bin\spring-1.5.9.RELEASE\bin;E:\SVN\svn\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;E:\GIT\GITsoftware\Git\cmd;E:\maven\apache-maven-3.5.0\bin;E:\NodeJs\;E:\Python;C:\Users\001\AppData\Local\Microsoft\WindowsApps;C:\Users\001\AppData\Roaming\npm;.]
+2018-08-14 20:07:21.028 localhost-startStop-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring embedded WebApplicationContext
+2018-08-14 20:07:21.029 localhost-startStop-1 INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 5081 ms
+2018-08-14 20:07:21.709 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration:185 - Servlet dispatcherServlet mapped to [/]
+2018-08-14 20:07:21.722 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 20:07:21.724 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 20:07:21.725 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 20:07:21.726 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 20:07:23.471 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:07:24.300 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c4f3a0: startup date [Tue Aug 14 20:07:15 CST 2018]; root of context hierarchy
+2018-08-14 20:07:24.554 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/insertWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.insertWelfare(com.kuliao.oa.db.model.OaWelfare) throws java.lang.Exception
+2018-08-14 20:07:24.558 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.db.model.OaWelfare> com.kuliao.oa.controller.OaWelfareController.updateWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:07:24.560 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/selectWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.selectWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:07:24.561 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfareStateById]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.updateWelfareStateById(int)
+2018-08-14 20:07:24.570 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 20:07:24.572 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 20:07:24.674 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:07:24.675 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:07:24.721 main INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:288 - Detected @ExceptionHandler methods in globalHandler
+2018-08-14 20:07:24.867 main INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>:56 - Adding welcome page: class path resource [static/index.html]
+2018-08-14 20:07:25.704 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-08-14 20:07:25.709 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 20:07:25.728 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-14 20:07:25.784 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Starting ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:07:25.832 main INFO  org.apache.tomcat.util.net.NioSelectorPool.log:180 - Using a shared selector for servlet write/read
+2018-08-14 20:07:25.927 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:206 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-14 20:07:25.945 main INFO  com.kuliao.oa.OaHrApp.logStarted:59 - Started OaHrApp in 11.775 seconds (JVM running for 13.613)
+2018-08-14 20:13:42.607 http-nio-8081-exec-2 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 20:13:42.608 http-nio-8081-exec-2 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 20:13:42.677 http-nio-8081-exec-2 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 67 ms
+2018-08-14 20:13:42.958 http-nio-8081-exec-2 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:13:43.113 http-nio-8081-exec-2 INFO  com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2018-08-14 20:13:43.671 http-nio-8081-exec-2 INFO  com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2018-08-14 20:13:43.766 http-nio-8081-exec-2 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-08-14 20:13:44.027 http-nio-8081-exec-2 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory.<init>:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-08-14 20:13:44.068 http-nio-8081-exec-2 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:13:44.294 http-nio-8081-exec-3 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:13:44.312 http-nio-8081-exec-3 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:13:47.834 http-nio-8081-exec-4 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:13:47.843 http-nio-8081-exec-4 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:14:07.914 http-nio-8081-exec-5 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:14:07.944 http-nio-8081-exec-5 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:16:30.475 http-nio-8081-exec-6 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:16:30.488 http-nio-8081-exec-6 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:16:51.784 http-nio-8081-exec-7 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:16:51.792 http-nio-8081-exec-7 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:18:43.729 http-nio-8081-exec-8 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:18:43.739 http-nio-8081-exec-8 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:19:18.039 http-nio-8081-exec-9 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:19:18.046 http-nio-8081-exec-9 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:19:25.070 http-nio-8081-exec-10 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:19:25.081 http-nio-8081-exec-10 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:20:28.056 main INFO  com.kuliao.oa.OaHrApp.logStarting:50 - Starting OaHrApp on DESKTOP-Q6UH8IF with PID 23796 (F:\KLOA\trunk\oa-hr\target\classes started by 001 in F:\KLOA\trunk)
+2018-08-14 20:20:28.063 main INFO  com.kuliao.oa.OaHrApp.logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-08-14 20:20:28.151 main INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@482e36: startup date [Tue Aug 14 20:20:28 CST 2018]; root of context hierarchy
+2018-08-14 20:20:30.069 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 - Tomcat initialized with port(s): 8081 (http)
+2018-08-14 20:20:30.085 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:20:30.100 main INFO  org.apache.catalina.core.StandardService.log:180 - Starting service [Tomcat]
+2018-08-14 20:20:30.100 main INFO  org.apache.catalina.core.StandardEngine.log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-14 20:20:30.104 localhost-startStop-1 INFO  org.apache.catalina.core.AprLifecycleListener.log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\bin;E:\IDEA\spring-boot-cli-1.5.9.RELEASE-bin\spring-1.5.9.RELEASE\bin;E:\SVN\svn\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;E:\GIT\GITsoftware\Git\cmd;E:\maven\apache-maven-3.5.0\bin;E:\NodeJs\;E:\Python;C:\Users\001\AppData\Local\Microsoft\WindowsApps;C:\Users\001\AppData\Roaming\npm;.]
+2018-08-14 20:20:30.211 localhost-startStop-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring embedded WebApplicationContext
+2018-08-14 20:20:30.212 localhost-startStop-1 INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 2061 ms
+2018-08-14 20:20:30.371 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration:185 - Servlet dispatcherServlet mapped to [/]
+2018-08-14 20:20:30.377 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 20:20:30.377 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 20:20:30.378 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 20:20:30.378 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 20:20:30.828 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:20:31.088 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@482e36: startup date [Tue Aug 14 20:20:28 CST 2018]; root of context hierarchy
+2018-08-14 20:20:31.164 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.db.model.OaWelfare> com.kuliao.oa.controller.OaWelfareController.updateWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:20:31.165 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/insertWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.insertWelfare(com.kuliao.oa.db.model.OaWelfare) throws java.lang.Exception
+2018-08-14 20:20:31.166 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/selectWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.selectWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:20:31.166 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfareStateById]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.updateWelfareStateById(int)
+2018-08-14 20:20:31.169 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 20:20:31.170 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 20:20:31.206 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:20:31.206 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:20:31.223 main INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:288 - Detected @ExceptionHandler methods in globalHandler
+2018-08-14 20:20:31.255 main INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>:56 - Adding welcome page: class path resource [static/index.html]
+2018-08-14 20:20:31.526 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-08-14 20:20:31.528 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 20:20:31.541 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-14 20:20:31.551 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Starting ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:20:31.566 main INFO  org.apache.tomcat.util.net.NioSelectorPool.log:180 - Using a shared selector for servlet write/read
+2018-08-14 20:20:31.591 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:206 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-14 20:20:31.596 main INFO  com.kuliao.oa.OaHrApp.logStarted:59 - Started OaHrApp in 4.353 seconds (JVM running for 5.535)
+2018-08-14 20:20:38.014 http-nio-8081-exec-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 20:20:38.015 http-nio-8081-exec-1 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 20:20:38.078 http-nio-8081-exec-1 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 62 ms
+2018-08-14 20:20:38.257 http-nio-8081-exec-1 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:20:38.309 http-nio-8081-exec-1 INFO  com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2018-08-14 20:20:38.864 http-nio-8081-exec-1 INFO  com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2018-08-14 20:20:38.973 http-nio-8081-exec-1 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-08-14 20:20:39.144 http-nio-8081-exec-1 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory.<init>:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-08-14 20:20:39.187 http-nio-8081-exec-1 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:21:30.519 main INFO  com.kuliao.oa.OaHrApp.logStarting:50 - Starting OaHrApp on DESKTOP-Q6UH8IF with PID 3016 (F:\KLOA\trunk\oa-hr\target\classes started by 001 in F:\KLOA\trunk)
+2018-08-14 20:21:30.526 main INFO  com.kuliao.oa.OaHrApp.logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-08-14 20:21:30.609 main INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65fe7c: startup date [Tue Aug 14 20:21:30 CST 2018]; root of context hierarchy
+2018-08-14 20:21:32.189 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 - Tomcat initialized with port(s): 8081 (http)
+2018-08-14 20:21:32.204 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:21:32.221 main INFO  org.apache.catalina.core.StandardService.log:180 - Starting service [Tomcat]
+2018-08-14 20:21:32.221 main INFO  org.apache.catalina.core.StandardEngine.log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-14 20:21:32.226 localhost-startStop-1 INFO  org.apache.catalina.core.AprLifecycleListener.log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\bin;E:\IDEA\spring-boot-cli-1.5.9.RELEASE-bin\spring-1.5.9.RELEASE\bin;E:\SVN\svn\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;E:\GIT\GITsoftware\Git\cmd;E:\maven\apache-maven-3.5.0\bin;E:\NodeJs\;E:\Python;C:\Users\001\AppData\Local\Microsoft\WindowsApps;C:\Users\001\AppData\Roaming\npm;.]
+2018-08-14 20:21:32.540 localhost-startStop-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring embedded WebApplicationContext
+2018-08-14 20:21:32.540 localhost-startStop-1 INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 1931 ms
+2018-08-14 20:21:32.705 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration:185 - Servlet dispatcherServlet mapped to [/]
+2018-08-14 20:21:32.712 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 20:21:32.713 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 20:21:32.713 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 20:21:32.713 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 20:21:33.248 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:21:33.524 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@65fe7c: startup date [Tue Aug 14 20:21:30 CST 2018]; root of context hierarchy
+2018-08-14 20:21:33.604 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfareStateById]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.updateWelfareStateById(int)
+2018-08-14 20:21:33.605 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.db.model.OaWelfare> com.kuliao.oa.controller.OaWelfareController.updateWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:21:33.606 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/selectWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.selectWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:21:33.607 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/insertWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.insertWelfare(com.kuliao.oa.db.model.OaWelfare) throws java.lang.Exception
+2018-08-14 20:21:33.610 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 20:21:33.611 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 20:21:33.647 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:21:33.647 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:21:33.666 main INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:288 - Detected @ExceptionHandler methods in globalHandler
+2018-08-14 20:21:33.704 main INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>:56 - Adding welcome page: class path resource [static/index.html]
+2018-08-14 20:21:33.986 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-08-14 20:21:33.988 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 20:21:34.003 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-14 20:21:34.014 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Starting ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:21:34.031 main INFO  org.apache.tomcat.util.net.NioSelectorPool.log:180 - Using a shared selector for servlet write/read
+2018-08-14 20:21:34.057 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:206 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-14 20:21:34.062 main INFO  com.kuliao.oa.OaHrApp.logStarted:59 - Started OaHrApp in 4.355 seconds (JVM running for 5.518)
+2018-08-14 20:21:39.648 http-nio-8081-exec-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 20:21:39.650 http-nio-8081-exec-1 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 20:21:39.721 http-nio-8081-exec-1 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 70 ms
+2018-08-14 20:21:39.916 http-nio-8081-exec-1 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:21:39.956 http-nio-8081-exec-1 INFO  com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2018-08-14 20:21:40.402 http-nio-8081-exec-1 INFO  com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2018-08-14 20:21:40.487 http-nio-8081-exec-1 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-08-14 20:21:40.638 http-nio-8081-exec-1 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory.<init>:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-08-14 20:21:40.701 http-nio-8081-exec-1 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:22:18.449 main INFO  com.kuliao.oa.OaHrApp.logStarting:50 - Starting OaHrApp on DESKTOP-Q6UH8IF with PID 25004 (F:\KLOA\trunk\oa-hr\target\classes started by 001 in F:\KLOA\trunk)
+2018-08-14 20:22:18.455 main INFO  com.kuliao.oa.OaHrApp.logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-08-14 20:22:18.533 main INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12f203f: startup date [Tue Aug 14 20:22:18 CST 2018]; root of context hierarchy
+2018-08-14 20:22:21.293 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 - Tomcat initialized with port(s): 8081 (http)
+2018-08-14 20:22:21.328 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:22:21.368 main INFO  org.apache.catalina.core.StandardService.log:180 - Starting service [Tomcat]
+2018-08-14 20:22:21.369 main INFO  org.apache.catalina.core.StandardEngine.log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-14 20:22:21.381 localhost-startStop-1 INFO  org.apache.catalina.core.AprLifecycleListener.log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\bin;E:\IDEA\spring-boot-cli-1.5.9.RELEASE-bin\spring-1.5.9.RELEASE\bin;E:\SVN\svn\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;E:\GIT\GITsoftware\Git\cmd;E:\maven\apache-maven-3.5.0\bin;E:\NodeJs\;E:\Python;C:\Users\001\AppData\Local\Microsoft\WindowsApps;C:\Users\001\AppData\Roaming\npm;.]
+2018-08-14 20:22:21.676 localhost-startStop-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring embedded WebApplicationContext
+2018-08-14 20:22:21.677 localhost-startStop-1 INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3144 ms
+2018-08-14 20:22:22.012 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration:185 - Servlet dispatcherServlet mapped to [/]
+2018-08-14 20:22:22.031 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 20:22:22.032 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 20:22:22.033 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 20:22:22.033 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 20:22:23.017 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:22:23.486 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12f203f: startup date [Tue Aug 14 20:22:18 CST 2018]; root of context hierarchy
+2018-08-14 20:22:23.625 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/insertWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.insertWelfare(com.kuliao.oa.db.model.OaWelfare) throws java.lang.Exception
+2018-08-14 20:22:23.627 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.db.model.OaWelfare> com.kuliao.oa.controller.OaWelfareController.updateWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:22:23.628 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/selectWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.selectWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:22:23.630 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfareStateById]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.updateWelfareStateById(int)
+2018-08-14 20:22:23.635 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 20:22:23.637 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 20:22:23.701 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:22:23.701 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:22:23.747 main INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:288 - Detected @ExceptionHandler methods in globalHandler
+2018-08-14 20:22:23.821 main INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>:56 - Adding welcome page: class path resource [static/index.html]
+2018-08-14 20:22:24.284 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-08-14 20:22:24.288 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 20:22:24.299 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-14 20:22:24.317 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Starting ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:22:24.361 main INFO  org.apache.tomcat.util.net.NioSelectorPool.log:180 - Using a shared selector for servlet write/read
+2018-08-14 20:22:24.410 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:206 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-14 20:22:24.418 main INFO  com.kuliao.oa.OaHrApp.logStarted:59 - Started OaHrApp in 6.869 seconds (JVM running for 8.051)
+2018-08-14 20:22:29.028 http-nio-8081-exec-2 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 20:22:29.029 http-nio-8081-exec-2 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 20:22:29.081 http-nio-8081-exec-2 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+2018-08-14 20:22:29.217 http-nio-8081-exec-2 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:40 - insert Welfare..........
+2018-08-14 20:22:29.260 http-nio-8081-exec-2 INFO  com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2018-08-14 20:22:29.711 http-nio-8081-exec-2 INFO  com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2018-08-14 20:22:29.821 http-nio-8081-exec-2 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-08-14 20:22:30.007 http-nio-8081-exec-2 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory.<init>:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-08-14 20:22:30.052 http-nio-8081-exec-2 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-08-14 20:26:22.396 main INFO  com.kuliao.oa.OaHrApp.logStarting:50 - Starting OaHrApp on DESKTOP-Q6UH8IF with PID 16796 (F:\KLOA\trunk\oa-hr\target\classes started by 001 in F:\KLOA\trunk)
+2018-08-14 20:26:22.404 main INFO  com.kuliao.oa.OaHrApp.logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-08-14 20:26:22.533 main INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150bb58: startup date [Tue Aug 14 20:26:22 CST 2018]; root of context hierarchy
+2018-08-14 20:26:24.402 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 - Tomcat initialized with port(s): 8081 (http)
+2018-08-14 20:26:24.420 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:26:24.441 main INFO  org.apache.catalina.core.StandardService.log:180 - Starting service [Tomcat]
+2018-08-14 20:26:24.441 main INFO  org.apache.catalina.core.StandardEngine.log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-14 20:26:24.447 localhost-startStop-1 INFO  org.apache.catalina.core.AprLifecycleListener.log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\bin;E:\IDEA\spring-boot-cli-1.5.9.RELEASE-bin\spring-1.5.9.RELEASE\bin;E:\SVN\svn\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;E:\GIT\GITsoftware\Git\cmd;E:\maven\apache-maven-3.5.0\bin;E:\NodeJs\;E:\Python;C:\Users\001\AppData\Local\Microsoft\WindowsApps;C:\Users\001\AppData\Roaming\npm;.]
+2018-08-14 20:26:24.752 localhost-startStop-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring embedded WebApplicationContext
+2018-08-14 20:26:24.753 localhost-startStop-1 INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 2220 ms
+2018-08-14 20:26:25.270 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration:185 - Servlet dispatcherServlet mapped to [/]
+2018-08-14 20:26:25.285 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 20:26:25.287 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 20:26:25.288 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 20:26:25.289 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 20:26:26.935 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:26:27.656 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150bb58: startup date [Tue Aug 14 20:26:22 CST 2018]; root of context hierarchy
+2018-08-14 20:26:27.834 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfareStateById]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.updateWelfareStateById(int)
+2018-08-14 20:26:27.836 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.db.model.OaWelfare> com.kuliao.oa.controller.OaWelfareController.updateWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:26:27.837 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/selectWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.selectWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:26:27.838 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/insertWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.insertWelfare(com.kuliao.oa.db.model.OaWelfare) throws java.lang.Exception
+2018-08-14 20:26:27.846 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 20:26:27.848 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 20:26:27.932 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:26:27.933 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:26:27.971 main INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:288 - Detected @ExceptionHandler methods in globalHandler
+2018-08-14 20:26:28.049 main INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>:56 - Adding welcome page: class path resource [static/index.html]
+2018-08-14 20:26:28.527 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-08-14 20:26:28.532 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 20:26:28.546 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-14 20:26:28.571 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Starting ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:26:28.605 main INFO  org.apache.tomcat.util.net.NioSelectorPool.log:180 - Using a shared selector for servlet write/read
+2018-08-14 20:26:28.660 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:206 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-14 20:26:28.666 main INFO  com.kuliao.oa.OaHrApp.logStarted:59 - Started OaHrApp in 7.381 seconds (JVM running for 9.243)
+2018-08-14 20:26:33.114 http-nio-8081-exec-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 20:26:33.115 http-nio-8081-exec-1 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 20:26:33.182 http-nio-8081-exec-1 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 67 ms
+2018-08-14 20:34:16.572 main INFO  com.kuliao.oa.OaHrApp.logStarting:50 - Starting OaHrApp on DESKTOP-Q6UH8IF with PID 24672 (F:\KLOA\trunk\oa-hr\target\classes started by 001 in F:\KLOA\trunk)
+2018-08-14 20:34:16.589 main INFO  com.kuliao.oa.OaHrApp.logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-08-14 20:34:16.831 main INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@e82ae: startup date [Tue Aug 14 20:34:16 CST 2018]; root of context hierarchy
+2018-08-14 20:34:19.344 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 - Tomcat initialized with port(s): 8081 (http)
+2018-08-14 20:34:19.356 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:34:19.373 main INFO  org.apache.catalina.core.StandardService.log:180 - Starting service [Tomcat]
+2018-08-14 20:34:19.374 main INFO  org.apache.catalina.core.StandardEngine.log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-14 20:34:19.381 localhost-startStop-1 INFO  org.apache.catalina.core.AprLifecycleListener.log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\bin;E:\IDEA\spring-boot-cli-1.5.9.RELEASE-bin\spring-1.5.9.RELEASE\bin;E:\SVN\svn\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;E:\GIT\GITsoftware\Git\cmd;E:\maven\apache-maven-3.5.0\bin;E:\NodeJs\;E:\Python;C:\Users\001\AppData\Local\Microsoft\WindowsApps;C:\Users\001\AppData\Roaming\npm;.]
+2018-08-14 20:34:19.496 localhost-startStop-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring embedded WebApplicationContext
+2018-08-14 20:34:19.496 localhost-startStop-1 INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 2665 ms
+2018-08-14 20:34:19.796 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration:185 - Servlet dispatcherServlet mapped to [/]
+2018-08-14 20:34:19.806 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 20:34:19.812 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 20:34:19.820 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 20:34:19.828 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 20:34:21.470 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:34:22.461 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@e82ae: startup date [Tue Aug 14 20:34:16 CST 2018]; root of context hierarchy
+2018-08-14 20:34:22.580 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfareStateById]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.updateWelfareStateById(int)
+2018-08-14 20:34:22.581 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/insertWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.insertWelfare(com.kuliao.oa.db.model.OaWelfare) throws java.lang.Exception
+2018-08-14 20:34:22.582 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.db.model.OaWelfare> com.kuliao.oa.controller.OaWelfareController.updateWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:34:22.582 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/selectWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.selectWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:34:22.586 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 20:34:22.587 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 20:34:22.622 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:34:22.622 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:34:22.644 main INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:288 - Detected @ExceptionHandler methods in globalHandler
+2018-08-14 20:34:22.794 main INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>:56 - Adding welcome page: class path resource [static/index.html]
+2018-08-14 20:34:23.136 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-08-14 20:34:23.137 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 20:34:23.144 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-14 20:34:23.155 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Starting ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:34:23.160 main ERROR org.apache.catalina.core.StandardService.log:182 - Failed to start connector [Connector[HTTP/1.1-8081]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8081]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.kuliao.oa.OaHrApp.main(OaHrApp.java:18)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-08-14 20:34:23.164 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Pausing ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:34:23.164 main INFO  org.apache.catalina.core.StandardService.log:180 - Stopping service [Tomcat]
+2018-08-14 20:34:23.171 main INFO  org.apache.catalina.util.LifecycleBase.log:180 - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-08-14 20:34:23.172 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Stopping ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:34:23.172 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Destroying ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:34:23.176 main INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logAutoConfigurationReport:101 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-08-14 20:34:23.180 main ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+2018-08-14 20:34:23.181 main INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.doClose:993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@e82ae: startup date [Tue Aug 14 20:34:16 CST 2018]; root of context hierarchy
+2018-08-14 20:34:23.183 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.destroy:451 - Unregistering JMX-exposed beans on shutdown
+2018-08-14 20:34:23.183 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.unregisterBeans:183 - Unregistering JMX-exposed beans
+2018-08-14 20:36:00.391 main INFO  com.kuliao.oa.OaHrApp.logStarting:50 - Starting OaHrApp on DESKTOP-Q6UH8IF with PID 13688 (F:\KLOA\trunk\oa-hr\target\classes started by 001 in F:\KLOA\trunk)
+2018-08-14 20:36:00.398 main INFO  com.kuliao.oa.OaHrApp.logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-08-14 20:36:00.504 main INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@235045: startup date [Tue Aug 14 20:36:00 CST 2018]; root of context hierarchy
+2018-08-14 20:36:03.323 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 - Tomcat initialized with port(s): 8081 (http)
+2018-08-14 20:36:03.358 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:36:03.396 main INFO  org.apache.catalina.core.StandardService.log:180 - Starting service [Tomcat]
+2018-08-14 20:36:03.397 main INFO  org.apache.catalina.core.StandardEngine.log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-14 20:36:03.408 localhost-startStop-1 INFO  org.apache.catalina.core.AprLifecycleListener.log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\bin;E:\IDEA\spring-boot-cli-1.5.9.RELEASE-bin\spring-1.5.9.RELEASE\bin;E:\SVN\svn\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;E:\GIT\GITsoftware\Git\cmd;E:\maven\apache-maven-3.5.0\bin;E:\NodeJs\;E:\Python;C:\Users\001\AppData\Local\Microsoft\WindowsApps;C:\Users\001\AppData\Roaming\npm;.]
+2018-08-14 20:36:03.749 localhost-startStop-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring embedded WebApplicationContext
+2018-08-14 20:36:03.750 localhost-startStop-1 INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3247 ms
+2018-08-14 20:36:04.299 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration:185 - Servlet dispatcherServlet mapped to [/]
+2018-08-14 20:36:04.311 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 20:36:04.312 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 20:36:04.313 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 20:36:04.313 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 20:36:05.615 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:36:06.396 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@235045: startup date [Tue Aug 14 20:36:00 CST 2018]; root of context hierarchy
+2018-08-14 20:36:06.674 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/selectWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.selectWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:36:06.680 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/insertWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.insertWelfare(com.kuliao.oa.db.model.OaWelfare) throws java.lang.Exception
+2018-08-14 20:36:06.681 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.db.model.OaWelfare> com.kuliao.oa.controller.OaWelfareController.updateWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:36:06.683 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfareStateById]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.updateWelfareStateById(int)
+2018-08-14 20:36:06.717 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 20:36:06.724 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 20:36:06.805 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:36:06.806 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:36:06.849 main INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:288 - Detected @ExceptionHandler methods in globalHandler
+2018-08-14 20:36:06.969 main INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>:56 - Adding welcome page: class path resource [static/index.html]
+2018-08-14 20:36:07.711 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-08-14 20:36:07.716 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 20:36:07.732 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-14 20:36:07.762 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Starting ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:36:07.807 main INFO  org.apache.tomcat.util.net.NioSelectorPool.log:180 - Using a shared selector for servlet write/read
+2018-08-14 20:36:07.890 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:206 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-14 20:36:07.901 main INFO  com.kuliao.oa.OaHrApp.logStarted:59 - Started OaHrApp in 8.531 seconds (JVM running for 10.841)
+2018-08-14 20:40:21.386 http-nio-8081-exec-2 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 20:40:21.387 http-nio-8081-exec-2 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 20:40:21.450 http-nio-8081-exec-2 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 62 ms
+2018-08-14 20:41:45.136 main INFO  com.kuliao.oa.OaHrApp.logStarting:50 - Starting OaHrApp on DESKTOP-Q6UH8IF with PID 23088 (F:\KLOA\trunk\oa-hr\target\classes started by 001 in F:\KLOA\trunk)
+2018-08-14 20:41:45.143 main INFO  com.kuliao.oa.OaHrApp.logStartupProfileInfo:659 - No active profile set, falling back to default profiles: default
+2018-08-14 20:41:45.231 main INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.prepareRefresh:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150bb58: startup date [Tue Aug 14 20:41:45 CST 2018]; root of context hierarchy
+2018-08-14 20:41:48.231 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:91 - Tomcat initialized with port(s): 8081 (http)
+2018-08-14 20:41:48.271 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Initializing ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:41:48.322 main INFO  org.apache.catalina.core.StandardService.log:180 - Starting service [Tomcat]
+2018-08-14 20:41:48.323 main INFO  org.apache.catalina.core.StandardEngine.log:180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-14 20:41:48.337 localhost-startStop-1 INFO  org.apache.catalina.core.AprLifecycleListener.log:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\bin;E:\IDEA\spring-boot-cli-1.5.9.RELEASE-bin\spring-1.5.9.RELEASE\bin;E:\SVN\svn\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseGit\bin;E:\GIT\GITsoftware\Git\cmd;E:\maven\apache-maven-3.5.0\bin;E:\NodeJs\;E:\Python;C:\Users\001\AppData\Local\Microsoft\WindowsApps;C:\Users\001\AppData\Roaming\npm;.]
+2018-08-14 20:41:48.733 localhost-startStop-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring embedded WebApplicationContext
+2018-08-14 20:41:48.734 localhost-startStop-1 INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext:285 - Root WebApplicationContext: initialization completed in 3503 ms
+2018-08-14 20:41:49.262 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration:185 - Servlet dispatcherServlet mapped to [/]
+2018-08-14 20:41:49.272 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 20:41:49.273 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 20:41:49.275 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 20:41:49.276 localhost-startStop-1 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean.configure:244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 20:41:50.588 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:41:51.404 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache:574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150bb58: startup date [Tue Aug 14 20:41:45 CST 2018]; root of context hierarchy
+2018-08-14 20:41:51.625 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfareStateById]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.updateWelfareStateById(int)
+2018-08-14 20:41:51.628 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/selectWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.selectWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:41:51.631 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/insertWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.domain.RetEntity> com.kuliao.oa.controller.OaWelfareController.insertWelfare(com.kuliao.oa.db.model.OaWelfare) throws java.lang.Exception
+2018-08-14 20:41:51.634 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/hr/updateWelfare]}" onto public org.springframework.http.ResponseEntity<com.kuliao.oa.db.model.OaWelfare> com.kuliao.oa.controller.OaWelfareController.updateWelfare(com.kuliao.oa.db.model.OaWelfare)
+2018-08-14 20:41:51.648 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 20:41:51.654 main INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register:547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 20:41:51.748 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:41:51.749 main INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 20:41:51.811 main INFO  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:288 - Detected @ExceptionHandler methods in globalHandler
+2018-08-14 20:41:51.990 main INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>:56 - Adding welcome page: class path resource [static/index.html]
+2018-08-14 20:41:52.759 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.afterSingletonsInstantiated:433 - Registering beans for JMX exposure on startup
+2018-08-14 20:41:52.767 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.autodetect:895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 20:41:52.786 main INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter.registerBeanInstance:668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-14 20:41:52.817 main INFO  org.apache.coyote.http11.Http11NioProtocol.log:180 - Starting ProtocolHandler ["http-nio-8081"]
+2018-08-14 20:41:52.865 main INFO  org.apache.tomcat.util.net.NioSelectorPool.log:180 - Using a shared selector for servlet write/read
+2018-08-14 20:41:52.960 main INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:206 - Tomcat started on port(s): 8081 (http) with context path ''
+2018-08-14 20:41:52.973 main INFO  com.kuliao.oa.OaHrApp.logStarted:59 - Started OaHrApp in 8.809 seconds (JVM running for 11.419)
+2018-08-14 20:41:57.178 http-nio-8081-exec-1 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 20:41:57.179 http-nio-8081-exec-1 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 20:41:57.238 http-nio-8081-exec-1 INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 57 ms
+2018-08-14 20:41:57.416 http-nio-8081-exec-1 DEBUG com.kuliao.oa.controller.OaWelfareController.insertWelfare:42 - insert Welfare..........
+2018-08-14 20:41:57.501 http-nio-8081-exec-1 INFO  com.zaxxer.hikari.HikariDataSource.getConnection:110 - HikariPool-1 - Starting...
+2018-08-14 20:41:58.103 http-nio-8081-exec-1 INFO  com.zaxxer.hikari.HikariDataSource.getConnection:123 - HikariPool-1 - Start completed.
+2018-08-14 20:41:58.186 http-nio-8081-exec-1 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions:316 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-08-14 20:41:58.411 http-nio-8081-exec-1 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory.<init>:128 - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2018-08-14 20:41:58.495 http-nio-8081-exec-1 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log:182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+### The error may involve com.kuliao.oa.db.mapper.OaWelfareMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into oa_welfare (id, welfare_type,  gift_description, release_time,  specific_holiday, unit_price,  w_number, now_year,  welfare_state, remark) values (?, ?,  ?, ?,  ?, ?,  ?, ?,  ?, ?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+; ]; Column 'welfare_type' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null] with root cause
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'welfare_type' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3976)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3912)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2486)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy65.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:58)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.kuliao.oa.services.OaWelfareService.insertWelfare(OaWelfareService.java:21)
+	at com.kuliao.oa.controller.OaWelfareController.insertWelfare(OaWelfareController.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)

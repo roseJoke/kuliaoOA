@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oa-base" />
+        <module name="oa-hr" />
+        <module name="oa-hr1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oa-base" target="1.8" />
+      <module name="oa-hr" target="1.8" />
+      <module name="oa-hr1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
